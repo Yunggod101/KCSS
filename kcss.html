@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KCSS</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <style>
+     .nav-row {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        
+     }
+
+     .nav a {
+      color: #777777 !important;
+     }
+
+     .nav-row div:nth-child(2) {
+        flex-grow: 1;
+    }
+
+    .pic {
+        
+        padding: 16%;
+        background-image: url(feliphe-schiarolli-hes6nUC1MVc-unsplash.jpg);
+    }
+    
+    .sec {
+        padding: 3%;
+        text-align: center;
+    }
+
+    .col-8 {
+      text-align: left;
+      text-rendering: auto;
+    }
+
+    .img {
+        
+        padding: 29%;
+        
+    }
+
+    .container {
+        display: flex;
+        padding: 1%;
+        padding-bottom: 4%;
+    }
+
+    .col-md-4 {
+        background-image: url(feliphe-schiarolli-hes6nUC1MVc-unsplash.jpg);
+        
+    }
+
+    .bc {
+        background-color: #f9f9f9;
+        flex-direction: row;
+        padding: 1%;
+        
+        text-align: center;
+        
+        
+    }
+
+    .empty {
+        margin: 5%;
+    }
+
+    h2 {
+      
+      text-align: center;
+      padding: 1%
+    }
+
+    h6 {
+      text-align: center;
+      padding: 1%;
+      color: #4D6671;
+    }
+    
+
+    .footers {
+      padding: 0%;
+      background-image: url(feliphe-schiarolli-hes6nUC1MVc-unsplash.jpg);
+      list-style: none;
+      
+      color: #f9f9f9;
+    }
+
+    .gap {
+      padding: 4%;
+    }
+
+    .grow {
+     padding: 4%;
+    }
+
+    li {
+      list-style: none;
+      display: flex;
+      
+    }
+
+    .overlay {
+      display: block;
+      width: 100%;
+      background-color:  rgba(87, 109, 119,0.8);
+      padding: 25px 0px;
+      
+    }
+
+    footer {
+      text-align: center;
+      background-color: rgba(87, 109, 119,0.8);
+      padding: 25px 0px;
+      color: #ffffff;
+      
+    }
+
+    .man {
+      min-width: 325px;
+      padding: 30px 20px;
+      margin-bottom: 20px;
+      
+    }
+
+    .btn-school {
+      background-color: #4D6671;
+      color: #ffffff;
+    }
+
+    
+    
+    </style>
+</head>
+<body>
+
+    <section class="hom">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+                <div class="nav-row">
+                  <div class="">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="home.html">KCSS</a>
+                      </div>
+                  </div>
+                  <div class="">
+                    
+                  </div>
+                  <div class="nav">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" href="#">About Us</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" href="#">Schools</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" href="#">Contact Us</a>
+                              </li>
+                            </ul>
+                          
+                      </div>
+                  </div>
+                </div>
+                <div class="row">
+              </div>
+            
+          </nav>
+       </section>
+       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="feliphe-schiarolli-hes6nUC1MVc-unsplash.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="feliphe-schiarolli-hes6nUC1MVc-unsplash.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="feliphe-schiarolli-hes6nUC1MVc-unsplash.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+       
+       <section>
+        <div class="sec">
+            <h2>Welcome</h2>
+        </div>
+        <div>
+            <div class="container">
+                <div class="row">
+                  <div class="col-md">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        It has survived not only five centuries, but also the leap into electronic typesetting, 
+                        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                        sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
+                        like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p><br>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="img"></div>
+                  </div>
+                </div>
+              </div>
+        </div>
+       </section>
+      <div class="bc">
+      <h2 class="sec"> Why Choose Us</h2>
+      </div>
+       <div class="bc">
+        <div class="container >
+            <div class="row">
+              <div class="col">
+                <ul>
+                    <li> Balanced & Comprehensive Curriculum </li> <br>
+                    <li> Balanced & Comprehensive Curriculum </li><br>
+                    <li> Modern Teaching and Learning Methodology</li><br>
+                  </ul>
+              </div>
+              <div class="empty">
+
+              </div>
+              <div class="col">
+                <ul>
+                    <li>Creative & Lifelong Learning Experiences</li><br>
+                    <li> Moderate Fees</li><br>
+                    <li> Comfortable and Secure Learning Environment</li><br>
+                </ul>
+              </div>
+            </div>
+       </div>
+    
+   <section class="grow">
+    <h2>Schools</h2>
+    <h6> FAITH-KNOWLEDGE-SUCCESS</h6>
+    <div class="container overflow-hidden text-center">
+      <div class="row gx-5">
+        <div class="col">
+         <div class=" border bg-light man">
+          <div>
+            <h5>KINGSTON MEMORIAL BILINGUAL NURSERY AND PRIMARY SCHOOL</h5>
+           </div><br>
+           <button type="button" class="btn btn-school">Learn More</button>
+         </div>
+        </div>
+        <div class="col ">
+          <div class=" border bg-light man">
+            <div>
+              <h5>KINGSTON COMPREHENSIVE SECONDARY SCHOOL(KCSS)</h5>
+            </div><br>
+            <button type="button" class="btn btn-school">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+   </section>
+
+   <section class="footers">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <ul>
+              <li>Home</li>
+              <li>About Us</li>
+              <li>KCSS</li>
+              <li>BBCSS</li>
+              <li>Contact US</li>
+             </ul>
+          </div>
+          <div class="col-md">
+            <ul>
+              <li>Contact Us</li>
+              <li>KINGSTON COMPREHENSIVE SECONDARY SCHOOL(KCSS)</li>
+              <li>+2376000000</li>
+              <li>+23760000000</li>
+              <li>+237600000000</li><br>
+              <li>KINGSTON MEMORIAL BILINGUAL NURSERY AND PRIMARY SCHOOL (KMBNPS)</li><br>
+              <li>+2376000000</li>
+            </ul>
+          </div>
+          <div class="col-md">
+
+          </div>
+        </div>
+      </div>
+   </section>
+   <footer>
+    Copyright @ 2023 KCSS. All rights reserved
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+</body>
+</html> 
